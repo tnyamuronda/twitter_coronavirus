@@ -21,22 +21,18 @@ with open(args.input_path) as f:
 if args.percent:
     for k in counts[args.key]:
         counts[args.key][k] /= counts['_all'][k]
-
-# print the count values
-#items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]), reverse=True)
-#for k,v in items:
-#   print(k,':',v)
-items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]))[:10]
+# sort the count values
+items = sorted(counts[args.key].items(), key=lambda item: (item[1],item[0]))[-10:]
 
 # create a bar graph of the results
 keys = [item[0] for item in items]
 values = [item[1] for item in items]
-plt.bar(keys, values)
-
+plt.bar(range(len(keys)), values)
+plt.xticks(range(len(keys)), keys)
 # set the title and labels of the graph
 plt.title(args.key + ' Counts')
-plt.xlabel('country')
-plt.ylabel('Values')
+plt.xlabel('Country')
+plt.ylabel('Count')
 
 # save the graph as a png file
 output_path = 'Country' + '_' + args.key + '.png'
