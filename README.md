@@ -85,7 +85,7 @@ and the vertical axis of the graph was the values of the input file.
 I filtered the final results include only the top 10 keys and were sorted from low to high.
 
 I then, ran the `visualize.py` file with the `--input_path` equal to both the country and lang files created in the reduce phase, and the `--key` set to `#coronavirus` and `#코로나바이러스`.
-The plots generated are below.
+The plots generated are below:
 
 Language Ranks for  #코로나바이러스
 
