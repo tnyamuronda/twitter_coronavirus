@@ -89,19 +89,19 @@ The plots generated are below.
 
 Language Ranks for  #코로나바이러스
 
-<img src=Language_#코로나바이러스.png width=50% />
+<img src=LanguageKorean.png width=50% />
 
 Country ranks for #코로나바이러스
 
-<img src=Country_#코로나바이러스.png width=50% />
+<img src=CountryKorean.png width=50% />
 
 Language ranks for #coronavirus
 
-<img src=Language_#coronavirus.png width=50% />
+<img src=LanguageEnglish.png width=50% />
 
 Country ranks for #coronavirus
 
-<img src=Country_#coronavirus.png width=50% />
+<img src=CountryEnglish.png width=50% />
 
 **Task 4: Alternative Reduce**
 
