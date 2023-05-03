@@ -88,15 +88,19 @@ I then, ran the `visualize.py` file with the `--input_path` equal to both the co
 The plots generated are below.
 
 Language Ranks for  #코로나바이러스
+
 <img src=Language_#코로나바이러스.png width=50% />
 
 Country ranks for #코로나바이러스
+
 <img src=Country_#코로나바이러스.png width=50% />
 
 Language ranks for #coronavirus
+
 <img src=Language_#coronavirus.png width=50% />
 
 Country ranks for #coronavirus
+
 <img src=Country_#coronavirus.png width=50% />
 
 **Task 4: Alternative Reduce**
@@ -113,5 +117,7 @@ First, I scanned through all of the data in the `outputs` folder created by the 
 In this scan, constructed a dataset that contained the information that I needed to plot.
 Then, after I had extracted this information,
 I called on a matplotlib functions to plot the data and got the graph below.
+
 Alternative_Reduce
+
 <img src=alternative_reduce_plot2.png width=50% />
