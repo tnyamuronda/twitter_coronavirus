@@ -72,7 +72,7 @@ $ ./src/reduce.py --input_paths outputs/geoTwitter*.lang --output_path=reduced.l
 $ ./src/reduce.py --input_paths outputs/geoTwitter*.country --output_path=reduced.country
 ```
 
-**Task 3: Visualize**
+**Step 3: Visualize**
 
 To visualize my output files I used the command
 ```
@@ -82,7 +82,7 @@ $ ./src/visualize.py --input_path=PATH --key=HASHTAG
 My `visualize.py` file generated a bar graph of the results and stored the bar graph as a png file.
 The horizontal axis of the graph was the keys of the input file,
 and the vertical axis of the graph was the values of the input file.
-The final results included only the top 10 keys and were sorted from low to high.
+I filtered the final results include only the top 10 keys and were sorted from low to high.
 
 I then, ran the `visualize.py` file with the `--input_path` equal to both the country and lang files created in the reduce phase, and the `--key` set to `#coronavirus` and `#코로나바이러스`.
 The plots generated are below.
@@ -103,7 +103,7 @@ Country ranks for #coronavirus
 
 <img src=CountryEnglish.png width=50% />
 
-**Task 4: Alternative Reduce**
+**Step 4: Alternative Reduce**
 
 I also then created a new file called `alternative_reduce.py`.
 This fil took as input on the command line a list of hashtags,
