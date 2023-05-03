@@ -29,7 +29,7 @@ for key in args.keys:
                     sumofnum += tmp[key][k]
             except:
                 pass
-                yaxis.append(sumofnum)
+            yaxis.append(sumofnum)
     plt.plot(np.arange(len(yaxis)), yaxis, label=key)
 
 plt.xlabel("Date in 2020")
@@ -37,5 +37,5 @@ plt.ylabel("# of Tweets")
 plt.title("# of Tweets with a certain hashtag by each day in 2020")
 plt.legend()
 plt.xticks([0, 60, 121, 182, 244, 305], ["Jan", "Mar", "May", "Jul", "Sept", "Nov"])
-plt.savefig("alternative_reduce_plot.png", bbox_inches="tight")
+plt.savefig("alternative_reduce_plot2.png", bbox_inches="tight")
 
