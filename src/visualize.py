@@ -31,9 +31,9 @@ plt.bar(range(len(keys)), values)
 plt.xticks(range(len(keys)), keys)
 # set the title and labels of the graph
 plt.title(args.key + ' Counts')
-plt.xlabel('Country')
+plt.xlabel('Language')
 plt.ylabel('Count')
 
 # save the graph as a png file
-output_path = 'Country' + '_' + args.key + '.png'
+output_path = 'LanguageEnglish' +'.png'
 plt.savefig(output_path)
