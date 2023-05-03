@@ -87,16 +87,16 @@ The final results included only the top 10 keys and were sorted from low to high
 I then, ran the `visualize.py` file with the `--input_path` equal to both the country and lang files created in the reduce phase, and the `--key` set to `#coronavirus` and `#코로나바이러스`.
 The plots generated are below.
 
-Language_#코로나바이러스
+Language Ranks for  #코로나바이러스
 <img src=Language_#코로나바이러스.png width=50% />
 
-Country_#코로나바이러스
+Country ranks for #코로나바이러스
 <img src=Country_#코로나바이러스.png width=50% />
 
-Language_#coronavirus
+Language ranks for #coronavirus
 <img src=Language_#coronavirus.png width=50% />
 
-Country_#coronavirus
+Country ranks for #coronavirus
 <img src=Country_#coronavirus.png width=50% />
 
 **Task 4: Alternative Reduce**
